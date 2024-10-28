@@ -1,0 +1,25 @@
+@import '../../../assets/mixins/mixin.scss';
+
+.home-wrapper{
+    width: 100%;
+    height: 100%;
+    .content-wrapper{
+        height: 90vh;
+        background-image: url('../../../assets/images/img.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+
+        .content{
+            h1{
+                font-size: em(160px);
+                color: #fff;
+                font-weight: 300px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                text-shadow: 0 0 em(10px) #333;
+            }
+        }
+    }
+}
